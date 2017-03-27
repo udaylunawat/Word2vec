@@ -1,6 +1,5 @@
 # word_vectors
-This is the code for my bachelor's mini project for 3rd year
-
+Project done by Anshul and Uday
 #Project Description
 Using Word2Vec to explore semantic similarities
 

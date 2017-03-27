@@ -1,10 +1,12 @@
-# word_vectors_game_of_thrones-LIVE
-This is the code for the "How to Make Word Vectors from Game of Thrones (LIVE) " Siraj Raval on Youtube
+# word_vectors
+This is the code for my bachelor's mini project for 3rd year
 
-##Overview
+#Project Description
+Using Word2Vec to explore semantic similarities
 
-This is the code for [this](https://www.youtube.com/watch?v=pY9EwZ02sXU) live session on youtube by Siraj Raval. We used 5 books in the [Game of Thrones](https://en.wikipedia.org/wiki/Game_of_Thrones) series to create a set of [word vectors](https://en.wikipedia.org/wiki/Word2vec). We'll use them to the find the similarity between words, map them out in 2D space, and analyze them.
+Word2vec is a group of related models that are used to produce word embeddings. These models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space such that words that share common contexts in the corpus are located in close proximity to one another in the space.
 
+Word2vec was created by a team of researchers led by Tomas Mikolov at Google. The algorithm has been subsequently analysed and explained by other researchers.Embedding vectors created using the Word2vec algorithm have many advantages compared to earlier algorithms like Latent Semantic Analysis.
 
 ##Dependencies
 
@@ -13,12 +15,4 @@ run `pip install -r pip-requirements.txt` to install the necessary dependencies.
 
 ##Usage
 
-The `demo.ipynb` has my commented code. The `Thrones2vec.ipynb` has the precompiled code, so you can see what the plots look like.
-
-
-##Credits
-
-Credits for this code go to [Yuriy Guts](https://github.com/YuriyGuts/). I've merely created a wrapper to get people started.
-
-
-
+The `demo.ipynb` has my commented code. The `wordvec2tensor.ipynb` has the precompiled code, so you can see what the plots look like.

@@ -14,4 +14,4 @@ run `pip install -r pip-requirements.txt` to install the necessary dependencies.
 
 ##Usage
 
-The `demo.ipynb` has my commented code. The `wordvec2tensor.ipynb` has the precompiled code, so you can see what the plots look like.
+The `testing.ipynb` has my commented code. The `thrones2vec.ipynb` has the code with output.
